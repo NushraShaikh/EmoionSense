@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Emotion Log</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #f2f9ff;
+    }
+    h2 {
+      text-align: center;
+      color: #333;
+    }
+    table {
+      width: 90%;
+      margin: auto;
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 10px;
+      border: 1px solid #888;
+      text-align: center;
+    }
+    th {
+      background-color: #cce5ff;
+    }
+  </style>
+</head>
+<body>
+  <h2>Emotion Detection Log</h2>
+  <table>
+    <tr>
+      <th>Timestamp</th>
+      <th>Child's Name</th>
+      <th>Emotion</th>
+    </tr>
+    {% for row in records %}
+    <tr>
+      <td>{{ row[0] }}</td>
+      <td>{{ row[1] }}</td>
+      <td>{{ row[2] }}</td>
+    </tr>
+    {% endfor %}
+  </table>
+</body>
+</html>

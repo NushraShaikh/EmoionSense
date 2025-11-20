@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result - EmotionSense</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 40px;
+            text-align: center;
+        }
+        h1 {
+            color: black;
+        }
+        .feedback {
+            font-size: 18px;
+            color: #333;
+        }
+        a {
+            color: purple;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Detected Emotion: {{ emotion }}</h1>
+    <p class="feedback"><strong>Feedback:</strong> {{ feedback }}</p>
+    <br>
+    <a href="/">← Back to Home</a>
+</body>
+</html>

@@ -1,0 +1,5 @@
+opencv-python
+tensorflow
+keras
+huggingface_hub
+numpy
