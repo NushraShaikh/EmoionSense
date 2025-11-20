@@ -45,5 +45,5 @@ EmotionSense is a real-time emotion detection system designed to help identify e
 - Multi-language support (basic)
 
 CONTACT
-Name: Nusra Shakh
+Name: Nusra Shaikh
 Email: nushrashaikh9@gmail.com 
