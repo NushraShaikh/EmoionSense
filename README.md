@@ -26,6 +26,10 @@ EmotionSense is a real-time emotion detection system designed to help identify e
 - Flask
 - DeepFace
 - OpenCV (cv2)
+
+CONTACT
+Name: Nusra Shakh
+Email: nushrashaikh9@gmail.com 
 - pyttsx3
 - numpy
 - googletrans==4.0.0-rc1
